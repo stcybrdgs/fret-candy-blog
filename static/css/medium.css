@@ -5,28 +5,32 @@ License: https://www.wowthemes.net/freebies-license/
 */
 /* ----------------------------------------------------------------------------
 CUSTOMIZATIONS */
-/* navbar --------------*/
+/* navbar  -----------------------------------*/
 body{
   overflow-y: scroll;
 }
 nav.navbar img{
-  opacity: 0.9;
+  opacity: 0.8;
+}
+nav.navbar img:hover{
+  //opacity: 1.0;
 }
 nav.navbar{
   background-color: rgba(0,0,255,0.9);
   width: 100%;
+  /* add shadow underneath the navbar*/
+  -webkit-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+  -moz-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+  box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
 }
-.mediumnavigation .container{
-  /* width: 100%;
-  background-color: red;
-  border: 1px solid blue; */
-}
+
+/* navbar links  ------------------------------*/
 .mediumnavigation .navbar-nav .nav-link{
-  color: rgba(255,255,255,0.8);
-  font-size: 1.2rem;
+  color: rgba(228,228,228,0.9);  /* make links a soft white */
+  font-size: 1.1rem;
 }
 .mediumnavigation .navbar-nav .nav-link:hover{
-  color: rgba(228,228,228,1.0);
+  color: rgba(255,255,255,1.0);  /* make links glow when hovered */
   text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
@@ -35,6 +39,33 @@ nav.navbar{
     0 0 25px #0073e6,
     0 0 30px #0073e6,
     0 0 35px #0073e6;
+}
+/* jumbotron  -----------------------------*/
+div.jumbotron.fortags{
+  /* add shadow underneath the jumbotron*/
+  -webkit-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+  -moz-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+  box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+}
+
+/* footer  --------------------------------*/
+footer.footer{
+  /* style for the footer box */
+  background-color: rgba(0,0,255,0.9);
+  margin-bottom: 0px;
+  margin-top: 50px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+footer.footer div.container{
+  /* style for the footer text */
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(228,228,228,0.8);  /* make text a soft white */
 }
 
 /* -------------------------------------------------------------------------- */
@@ -804,7 +835,7 @@ iframe {
         padding: 0;
         height: 350px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.png);
+        background-image: url(../images/jumbotron0.png);
         background-size: cover;
     }
 
@@ -822,7 +853,7 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.png);
+    background-image: url(../images/jumbotron0.png);
     background-size: cover;
 }
 

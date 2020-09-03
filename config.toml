@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "FretCandy"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
-copyright = "FretCandy - All rights reserved"
+copyright = "2020 - FretCandy"
 enableEmoji = true
 publishDir = "public"
 #disqusShortname = "your-shortname-here"
@@ -24,7 +24,7 @@ publishDir = "public"
 
 [params.index]
   picture = "/images/logo.png"
-  title = "FretCandyO"
+  title = "FretCandy"
   subtitle = "Sweet sounds made simple."
   mdtext = '''
 Currently trying to get this blog running, still don't know what the blog will be about!\
