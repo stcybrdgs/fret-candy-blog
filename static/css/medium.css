@@ -1,19 +1,19 @@
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-License: https://www.wowthemes.net/freebies-license/ 
+/*
+Template Name: Mediumish
+Copyright: Sal, WowThemes.net, https://www.wowthemes.net
+License: https://www.wowthemes.net/freebies-license/
 */
 .mainheading {
     padding: 1rem 0rem;
 }
 
 a {
-    color: #00ab6b;
+    color: rgba(0,0,255,1);  //#00ab6b;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: rgba(0,0,255,0.4);  //#038252;
     text-decoration: none;
 }
 
@@ -274,7 +274,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand {
-    font-weight: 500;
+    font-weight: 650;
 }
 
 .mediumnavigation .dropdown-menu {
@@ -284,7 +284,7 @@ span.post-read-more a:hover {
 
 .mediumnavigation .nav-item,
 .dropdown-menu {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 
 .mediumnavigation .search-icon {
@@ -295,7 +295,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 40px;
     margin-right: 5px;
 }
 
@@ -769,7 +769,7 @@ iframe {
         padding: 0;
         height: 350px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
+        background-image: url(../images/jumbotron.png);
         background-size: cover;
     }
 
@@ -787,7 +787,7 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.jpg);
+    background-image: url(../images/jumbotron.png);
     background-size: cover;
 }
 

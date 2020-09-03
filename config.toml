@@ -1,9 +1,9 @@
 baseURL = "https://fretcandy.com/"
 languageCode = "en-us"
-title = "Mediumish"
+title = "FretCandy"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
-copyright = "John Doe - All rights reserved"
+copyright = "FretCandy - All rights reserved"
 enableEmoji = true
 publishDir = "public"
 #disqusShortname = "your-shortname-here"
@@ -11,18 +11,18 @@ publishDir = "public"
 
 [params]
   logo = "/images/logo.png"
-  description ="the clean blog!"
+  description ="Sweet sounds made simple."
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
-  name = "John Doe"
-  thumbnail = "/images/author.png"
+  name = "FretCandy"
+  thumbnail = "/images/logo.png"
   description = "Creator of this blog."
 
 [params.index]
-  picture = "/images/author.png"
-  title = "John Doe"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  picture = "/images/logo.png"
+  title = "FretCandy"
+  subtitle = "Sweet sounds made simple."
   mdtext = '''
 Currently trying to get this blog running, still don't know what the blog will be about!\
 **This textblock is a demonstration of the mdtext-param.**\
@@ -40,17 +40,17 @@ Currently trying to get this blog running, still don't know what the blog will b
 
 ## Main Menu
 [[menu.main]]
-    name = "Blog"
+    name = "Tools"
     weight = 100
+    identifier = "tools"
+    url = "/"
+[[menu.main]]
+    name = "Blog"
+    weight = 200
     identifier = "blog"
     url = "/blog"
 [[menu.main]]
-    name = "About Me"
+    name = "About"
     identifier = "about"
-    weight = 200
+    weight = 300
     url = "/"
-[[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 200
-    url = "/static/imprint"
