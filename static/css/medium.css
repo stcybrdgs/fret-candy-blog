@@ -28,9 +28,10 @@ nav.navbar{
 .mediumnavigation .navbar-nav .nav-link{
   color: rgba(228,228,228,0.9);  /* make links a soft white */
   font-size: 1.1rem;
+  float: right;
 }
 .mediumnavigation .navbar-nav .nav-link:hover{
-  color: rgba(255,255,255,1.0);  /* make links glow when hovered */
+  color: rgba(255,255,255,0.8);  /* make links glow when hovered */
   text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
@@ -40,12 +41,33 @@ nav.navbar{
     0 0 30px #0073e6,
     0 0 35px #0073e6;
 }
+
 /* jumbotron  -----------------------------*/
 div.jumbotron.fortags{
   /* add shadow underneath the jumbotron*/
   -webkit-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
   -moz-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
   box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+}
+
+/* navbar hamburger  -----------------------------*/
+button.navbar-toggler{
+  border: 0;
+  outline: none;
+}
+button.navbar-toggler i{
+  color: rgba(228,228,228,0.8);  /* make hamburger a soft white */
+}
+button.navbar-toggler i:hover{
+  color: rgba(255,255,255,0.8);  /* make hamburger glow when hovered */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #0073e6,
+    0 0 20px #0073e6,
+    0 0 25px #0073e6,
+    0 0 30px #0073e6,
+    0 0 35px #0073e6;
 }
 
 /* footer  --------------------------------*/
@@ -58,7 +80,7 @@ footer.footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 10px;
+  padding: 10px 0px 20px 0px;
 }
 footer.footer div.container{
   /* style for the footer text */
@@ -68,7 +90,8 @@ footer.footer div.container{
   color: rgba(228,228,228,0.8);  /* make text a soft white */
 }
 
-/* -------------------------------------------------------------------------- */
+/* END CUSTOMIZATIONs
+----------------------------------------------------------------------------- */
 .mainheading {
     padding: 1rem 0rem;
 }
