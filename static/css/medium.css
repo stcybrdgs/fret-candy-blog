@@ -3,6 +3,41 @@ Template Name: Mediumish
 Copyright: Sal, WowThemes.net, https://www.wowthemes.net
 License: https://www.wowthemes.net/freebies-license/
 */
+/* ----------------------------------------------------------------------------
+CUSTOMIZATIONS */
+/* navbar --------------*/
+body{
+  overflow-y: scroll;
+}
+nav.navbar img{
+  opacity: 0.9;
+}
+nav.navbar{
+  background-color: rgba(0,0,255,0.9);
+  width: 100%;
+}
+.mediumnavigation .container{
+  /* width: 100%;
+  background-color: red;
+  border: 1px solid blue; */
+}
+.mediumnavigation .navbar-nav .nav-link{
+  color: rgba(255,255,255,0.8);
+  font-size: 1.2rem;
+}
+.mediumnavigation .navbar-nav .nav-link:hover{
+  color: rgba(228,228,228,1.0);
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #0073e6,
+    0 0 20px #0073e6,
+    0 0 25px #0073e6,
+    0 0 30px #0073e6,
+    0 0 35px #0073e6;
+}
+
+/* -------------------------------------------------------------------------- */
 .mainheading {
     padding: 1rem 0rem;
 }

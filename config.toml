@@ -9,6 +9,9 @@ publishDir = "public"
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
+[params.nav]
+  logonav = "/images/logonav.png"
+
 [params]
   logo = "/images/logo.png"
   description ="Sweet sounds made simple."
@@ -21,7 +24,7 @@ publishDir = "public"
 
 [params.index]
   picture = "/images/logo.png"
-  title = "FretCandy"
+  title = "FretCandyO"
   subtitle = "Sweet sounds made simple."
   mdtext = '''
 Currently trying to get this blog running, still don't know what the blog will be about!\
