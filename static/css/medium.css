@@ -90,6 +90,15 @@ footer.footer div.container{
   color: rgba(228,228,228,0.8);  /* make text a soft white */
 }
 
+/* blog cover img  -------------------------*/
+.img-fluid{
+  //border: 1px solid red;
+  /* add shadow underneath the blog cover image*/
+  /* -webkit-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+  -moz-box-shadow: 1px 9px 8px -1px rgba(190,197,247,1);
+  box-shadow: 1px 3px 4px -1px rgba(190,197,247,1); */
+}
+
 /* END CUSTOMIZATIONs
 ----------------------------------------------------------------------------- */
 .mainheading {

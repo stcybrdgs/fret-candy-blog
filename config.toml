@@ -27,10 +27,31 @@ publishDir = "public"
   title = "FretCandy"
   subtitle = "Sweet sounds made simple."
   mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
-'''
+  ### Make Music
+  Do you want to make your own music on the guitar? It doesn't have to be hard.
+  You don't need to memorize theory. You don't need to trudge through painful grimoires or methods. You don't even need to read music. All you need to do is grab your guitar, play it, and try to hold on to the good stuff.
+
+  But, don't the books, theories, and methods have value? Of course they do!
+  But you're free to choose... so why not just cherry-pick the good stuff and roll your own?
+
+  ### Simple Tools
+  FretCandy makes it easy to find the good stuff and hold onto it with simple,
+  useful tools:
+  - An interactive guitar neck
+  - A large library of diatonic scales and modes
+  - Customizable features for creating chords and tunings
+  - Notebooks and recorders for capturing ideas
+
+  ### Get Started
+  We're glad you're here! So, stay a while. Have fun exploring the neck while discovering
+  your own sweet sounds. Hydrate your playing a little or a lot. Take only what thrills you,
+  and roll your own!
+
+  FretCandy. Sweet sounds made simple.
+
+  **Take the Tour!**
+
+  '''
   alertbar = false
 
 [params.social]
